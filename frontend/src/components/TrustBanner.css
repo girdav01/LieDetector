@@ -1,0 +1,35 @@
+.trust-banner {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.trust-banner button {
+  transition: all 0.2s ease;
+}
+
+.trust-banner button:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.trust-banner button:active {
+  transform: translateY(0);
+}
+
+.trust-banner-details {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

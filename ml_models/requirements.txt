@@ -1,0 +1,9 @@
+# ML Model Dependencies
+# For production deployment, add:
+# transformers==4.35.0
+# torch==2.1.0
+# scikit-learn==1.3.2
+# numpy==1.24.3
+# pandas==2.1.3
+
+# Current stub implementation has no external dependencies
